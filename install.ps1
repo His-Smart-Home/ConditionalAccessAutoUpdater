@@ -73,7 +73,7 @@ function Write-RegistryValue {
 }
 
 # Registry path
-$regPath = "HKLM:\SOFTWARE\eduthing\ConditionalAccessAutoUpdate"
+$regPath = "HKLM:\SOFTWARE\His Smart Home\ConditionalAccessAutoUpdate"
 
 # Step 0: Ask for Site Name and store in registry
 $SiteName = Read-Host "Enter the Site Name"

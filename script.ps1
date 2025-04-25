@@ -45,7 +45,7 @@ function Write-RegistryValue {
 }
 
 # Registry path
-$regPath = "HKLM:\SOFTWARE\eduthing\ConditionalAccessAutoUpdate"
+$regPath = "HKLM:\SOFTWARE\His Smart Home\ConditionalAccessAutoUpdate"
 
 # Define your application details
 Write-Host "Attempting to get credentials from the store" -ForegroundColor Yellow
